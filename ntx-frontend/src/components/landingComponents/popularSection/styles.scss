@@ -1,0 +1,32 @@
+.popular {
+  // padding: 40px 125px;
+  padding: 10px 10px;
+  img {
+    height: 100% !important;
+    width: 100% !important;
+  }
+  p {
+    font-weight: 500;
+  }
+  &_heading {
+    h2 {
+      font-size: 28px !important ;
+      font-weight: 700 !important;
+    }
+  }
+  &_content {
+    &_first-img {
+      img {
+        height: 100% !important;
+        width: 100% !important;
+      }
+    }
+    &_first-main {
+      .description {
+        p {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.login {
+    overflow: hidden;
+    .form-wrapper {
+        height: 100vh;
+        align-items: center;
+        // background-color: ;
+    }
+    &_form {
+        box-shadow: 1px 6px 21px 1px rgba(0, 0, 0, 0.59);
+        -webkit-box-shadow: 1px 6px 21px 1px rgba(0, 0, 0, 0.59);
+        -moz-box-shadow: 1px 6px 21px 1px rgba(0, 0, 0, 0.59);
+        padding: 80px 20px;
+        border-radius: 5px;
+        label {
+            line-height: 2;
+            font-weight: 700;
+        }
+        &_button {
+            button {
+                width: 50%;
+            }
+        }
+        &_forget-password {
+            a {
+                text-decoration: none;
+                font-weight: 700;
+                color: #000;
+            }
+        }
+    }
+
+    .signup {
+        a {
+            text-decoration: none;
+            font-weight: 700;
+            color: #000;
+            cursor: pointer;
+        }
+    }
+
+    // display: flex;
+    // justify-content: center;
+}

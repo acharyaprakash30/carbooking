@@ -1,0 +1,51 @@
+import {
+  PieChartOutlined,
+  TeamOutlined,
+  CarryOutOutlined,
+  PlusOutlined,
+  UserOutlined,
+  CalendarOutlined,
+  FileDoneOutlined,
+  TagOutlined,
+  KeyOutlined,
+  AppstoreAddOutlined,
+  CommentOutlined,
+  ClockCircleOutlined,
+  CustomerServiceOutlined,
+  RocketOutlined,
+  FileImageOutlined,
+  AreaChartOutlined
+} from '@ant-design/icons'
+
+export const menu_list = [
+  {
+    key: 2,
+    icon: <UserOutlined />,
+    component: 'users',
+    label: 'Users',
+    type: 'menu',
+    path: '/users',
+    wologin: false,
+    wlogin: true,
+  },
+  {
+    key: 4,
+    icon: <CalendarOutlined />,
+    // component: 'Events',
+    label: 'Cars',
+    type: 'menu',
+    path: '/cars',
+    wologin: false,
+    wlogin: true,
+  },
+  {
+    key: 5,
+    icon: <AreaChartOutlined />,
+    // component: 'Events',
+    label: 'Bookings',
+    type: 'menu',
+    path: '/bookings',
+    wologin: false,
+    wlogin: true,
+  },
+]

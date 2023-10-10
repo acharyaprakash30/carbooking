@@ -1,0 +1,72 @@
+.carInner {
+  overflow: hidden;
+  padding: 40px 125px;
+  &_left {
+    &_card_wrapper {
+      .card {
+        border-radius: 12px;
+        box-shadow: 4px 15px 30px rgba(81, 81, 81, 0.09);
+        border: 0;
+        .card-content {
+          .cardleft {
+            width: 50% !important;
+            position: relative;
+            .img-top {
+              position: absolute;
+              top: 0px;
+              background-color: #000;
+              padding: 12px;
+              border-radius: 12px 0px;
+              color: #ffff;
+              cursor: pointer;
+            }
+            img {
+              width: 100% !important;
+              height: 100% !important;
+            }
+          }
+          .cardlRight {
+            width: 50% !important;
+            padding: 5px 20px !important;
+            .des{
+                margin-bottom: -100px !important;
+                font-weight: 700;
+                font-size: 12px;
+            }
+            .car-info{
+                margin-left: -14px !important;
+                .seat{
+                    align-items: baseline !important;
+                    .number{
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    border-right: 1px solid #666262;
+                    padding:5px 15px !important;
+                }
+                .luggage{
+                    align-items: baseline !important;
+                    .number{
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    border-right: 1px solid #666262;
+                    padding:5px 15px !important;
+                }
+                .door{
+                    align-items: baseline !important;
+                    .number{
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                    padding:5px 15px !important;
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // padding: 100px;
+}

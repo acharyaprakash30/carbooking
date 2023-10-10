@@ -1,0 +1,48 @@
+.booknow {
+  padding: 15px;
+  overflow: hidden;
+  &_left {
+    // height: 80vh;
+    img {
+      max-height: 100%;
+      width: 100%;
+      border-radius: 12px 12px 0px 0px;
+    }
+  }
+  &_right {
+    padding: 50px 20px;
+    .input-wrapper {
+      line-height: 2;
+      color: #000;
+      font-weight: 700;
+    }
+    .btn-wrapper {
+      button {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.car-info {
+  margin-left: -14px !important;
+  .seat {
+    align-items: baseline !important;
+    .number {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    border-right: 1px solid #666262;
+    padding: 5px 15px !important;
+  }
+  .luggage {
+    align-items: baseline !important;
+    justify-content: center;
+    .number {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    border-right: 1px solid #666262;
+    padding: 5px 15px !important;
+  }
+}

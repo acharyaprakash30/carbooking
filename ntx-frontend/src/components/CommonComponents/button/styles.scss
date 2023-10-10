@@ -1,0 +1,16 @@
+.btn-wrapper{
+    button{
+        background-color: #000;
+        border: 0;
+        &:focus {
+            box-shadow: none !important
+          }
+        &.hover{
+            background-color: #282525;
+            cursor: pointer;
+        }
+        &.disbled{
+            background-color: #807c7c;
+        }
+    }
+}
